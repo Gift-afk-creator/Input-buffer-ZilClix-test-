@@ -1,0 +1,28 @@
+{
+  "geode": "5.11.2",
+  "gd": {
+    "android": "2.2081"
+  },
+  "id": "zilclix.input-buffer",
+  "name": "ZilClix Input Buffer",
+  "version": "0.1.0",
+  "developer": "ZilClix",
+  "description": "Experimental frame-based input delay prototype for Geometry Dash Android.",
+  "tags": ["gameplay", "enhancement", "utility"],
+  "settings": {
+    "enabled": {
+      "name": "Enable input delay",
+      "description": "Queues player input instead of forwarding it immediately.",
+      "type": "bool",
+      "default": false
+    },
+    "delay-frames": {
+      "name": "Delay (frames)",
+      "description": "Fixed delay from 1 to 16 update ticks. This is NOT automatic collision prediction.",
+      "type": "int",
+      "default": 1,
+      "min": 1,
+      "max": 16
+    }
+  }
+}

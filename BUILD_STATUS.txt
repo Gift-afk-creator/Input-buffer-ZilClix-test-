@@ -1,0 +1,5 @@
+SOURCE + CLOUD BUILD WORKFLOW ONLY
+No .geode binary has been compiled in this environment.
+Android NDK and Geode SDK are not installed in this environment.
+GitHub Actions workflow targets Android64 with Geode SDK 5.11.2.
+The current mod is a fixed-delay queue prototype, not automatic collision prediction.
